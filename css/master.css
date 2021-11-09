@@ -1,0 +1,266 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    --webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+div.container {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+h3 {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+/* Start Footer */
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: #333333;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px 0;
+}
+footer div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+footer div.container h4 {
+    font-weight: 500;
+}
+footer div.container div {
+    width: calc((100% - 120px) / 4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+/* Start Contact Us */
+footer div.container div.contact-us {
+    flex-grow: 1;
+}
+footer div.container div.contact-us p {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #8A8A8A;
+}
+footer div.container div.contact-us div.contact {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+footer div.container div.contact-us div.contact span {
+    width: calc((100% - 40px)/ 2);
+}
+footer div.container div.contact-us div.contact h6 {
+    color: #8A8A8A;
+    margin-bottom: 0;
+}
+footer div.container div.contact-us div.contact p {
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+/* End Contact Us  */
+
+
+/* Start information  */
+div.container div.information  {
+    flex-shrink: 3;
+}
+div.container div.information ul {
+    list-style: none;
+    padding: 0;
+}
+div.container div.information ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #8A8A8A;
+    font-weight: 500;
+    cursor: pointer;
+}
+div.container div.information  ul li:hover {
+    text-decoration: underline;
+}
+
+/* End information  */
+
+/* Start My Account  */
+div.container div.my-account  {
+    flex-shrink: 1;
+}
+div.container div.my-account ul {
+    list-style: none;
+    padding: 0;
+}
+div.container div.my-account  ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #8A8A8A;
+    font-weight: 500;
+    cursor: pointer;
+}
+div.container div.my-account  ul li:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* End My Account  */
+
+/* Start Newsletter  */
+div.container div.newsletter {
+   flex-grow: 1;
+}
+div.container div.newsletter p {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #8A8A8A;
+}
+div.container div.newsletter input[type=email] {
+    height: 40px;
+    background-color: #4C4C4C;
+    border:none;
+    color: #fff;
+}
+div.container div.newsletter button {
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background-color: rgb(229,39,39);
+    border:none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+div.container div.newsletter button:hover {
+
+    background-color: rgb(187, 31, 31);
+   
+}
+div.container div.newsletter input[type=email]:focus {
+    outline: none;
+}
+div.container div.newsletter span.social-media {
+      justify-content: space-between;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+div.container div.newsletter span.social-media span {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+div.container div.newsletter span.social-media span.facebook {
+ 
+    background-color: #3C5A99;
+    
+}
+div.container div.newsletter span.social-media span.facebook:hover {
+ 
+    background-color: #2e4881;
+    
+}
+div.container div.newsletter span.social-media span.twitter {
+ 
+    background-color: #00A2E8;
+    
+}
+div.container div.newsletter span.social-media span.twitter:hover {
+ 
+    background-color: #0589c2;
+    
+}
+div.container div.newsletter span.social-media span.youtube {
+ 
+    background-color: #E52E2E;
+    
+}
+div.container div.newsletter span.social-media span.youtube:hover {
+ 
+    background-color: #c52828;
+    
+}
+div.container div.newsletter span.social-media span.instagram {
+ 
+    background-color: #815DC7;
+    
+}
+div.container div.newsletter span.social-media span.instagram:hover {
+ 
+    background-color: #5e4297;
+    
+}
+div.container div.newsletter span.social-media span.wifi {
+    line-height: 15px;
+    background-color: #FFC338;
+    justify-content: center;
+    
+    
+}
+div.container div.newsletter span.social-media span.wifi:hover {
+    
+    background-color: #d19e26;
+    
+    
+}
+div.container div.newsletter span.social-media span.wifi i {
+    color: #333333;
+    transform: rotate(20deg);
+}
+
+/* End Newsletter  */
+
+
+div.powered {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(43,43,43);
+    margin-top: 40px;
+}
+div.powered div.container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.powered div.container p {
+   font-size: 14px;
+   color: #8A8A8A;
+}
+div.powered div.container b {
+   
+    color: #fff;
+ }
+div.powered div.container span.payment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.powered div.container span.payment img {
+    width: 50px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+/* End Footer */
